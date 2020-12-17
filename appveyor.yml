@@ -4,5 +4,5 @@ cache:
     - packages -> **\packages.config
 before_build: nuget restore
 build: 
-    project: ../Lesson2Project/Lesson2Project/Lesson2Project.csproj
+    project: Lesson2Project/Lesson2Project.sln
     publish_wap: true

@@ -9,4 +9,5 @@ environment:
     - app2: 'Lesson2Project\Lesson2Project.sln'
 build: 
     project: 'Lesson2Project\Lesson2Project.sln'
+    project: 'Lesson1Project\Lesson1Project.sln'
     publish_wap: true

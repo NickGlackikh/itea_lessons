@@ -3,6 +3,10 @@ configuration: Release
 cache: 
     - packages -> **\packages.config
 before_build: nuget restore Lesson2Project\Lesson2Project.sln 
+environment:
+matrix:
+app1: Lesson1Project\Lesson1Project.sln
+app2: Lesson2Project\Lesson2Project.sln
 build: 
     project: Lesson2Project\Lesson2Project.sln
     publish_wap: true
